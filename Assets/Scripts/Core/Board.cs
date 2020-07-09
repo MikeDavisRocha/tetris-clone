@@ -10,6 +10,13 @@ public class Board : MonoBehaviour
     [SerializeField] int m_width = 10;
     [SerializeField] int m_header = 8;
 
+    Transform[,] m_grid;
+
+    private void Awake()
+    {
+        m_grid = new Transform[m_width, m_height];
+    }
+
     // Start is called before the first frame update
     void Start()
     {

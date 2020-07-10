@@ -779,6 +779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 888bc6a0e90babf43865ffdd5c159264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_gameBoard: {fileID: 0}
+  m_spawner: {fileID: 0}
 --- !u!1001 &703342291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1054,7 +1056,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964957425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 25, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1072,6 +1074,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd621187bd83a834a9cc2a7ae56e1576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_allShapes:
+  - {fileID: -6478686931882251256, guid: 82de6283ef568b44d9f003342418cc59, type: 3}
+  - {fileID: 2067699590115759578, guid: bb8845eefdce31f49972afec0cd5abfc, type: 3}
+  - {fileID: -2709827244299089647, guid: e7c6fb7061954e147bdddeaba592e583, type: 3}
+  - {fileID: -2599469846618881652, guid: a90397d653ceb5a459f84c39e758c1e1, type: 3}
+  - {fileID: 6024186726935298528, guid: 9555f2100fdce694da6ff5d045b7f668, type: 3}
+  - {fileID: -3646257604170656312, guid: 233c33315c64b044db62d0f9e41434b1, type: 3}
+  - {fileID: -1677291201972042644, guid: 74af552b559a70845ba7b3f556d2a436, type: 3}
 --- !u!1 &980865717
 GameObject:
   m_ObjectHideFlags: 0
